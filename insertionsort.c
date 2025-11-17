@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// função insertion sort com os parametros array e tamanho do array
+// função insertion sort com o parametro array
 void insertion_sort(char *arr) {
     // variaveis i para percorrer o array nao ordenado, j para percorrer a versao ordenada (a esquerda de i)
     // aux para armazenar temporariamente o valor de i para a parte ordenada
@@ -47,4 +47,5 @@ int main () {
     printf("RGM ordenado em ordem crescente: %s", rgm);
     
     return 0;
+
 }
