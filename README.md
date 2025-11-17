@@ -2,8 +2,10 @@
 
 ## O que é o algoritmo de ordenação insertion sort
 
-É um algoritmo de ordenação eficiente para pequenos conjuntos de dados, construindo um vetor final com uma lista ordenada, onde a ordenação é feita comparando o item atual ao item anterior do vetor.
-
+- É um algoritmo de ordenação eficiente para pequenos conjuntos de dados, construindo um vetor final com uma lista ordenada, onde a ordenação é feita comparando o item atual ao item anterior do vetor.
+- A ideia do insertion sort é semelhante à ter cartas de baralho, onde você as organiza na mão comparando a atual com a anterior, verificando qual é maior e qual é menor, e ordenando as menores no começo e as maiores no final.
+- O insertion sort percorre as posições do array, começando sempre pelo primeiro indice (1), cada nova posição precisa ser realocada no lugar correto, à esquerda da posição maior.
+- 
 ## Insertion sort com os numeros do RGM
 
 Esse código utiliza o RGM (numero único de matrícula do aluno) e o ordenada em formato crescente.
